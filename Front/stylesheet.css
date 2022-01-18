@@ -1,0 +1,225 @@
+.pozadina{
+    height: max-content;
+} 
+body{
+    margin: 0;
+    font-family: system-ui; 
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/bck7.jpg);
+    background-size: 100%;
+}
+.naslov{
+    background: #14440e85;
+    text-align:center;
+    color: white;
+    padding: 50px;
+    text-shadow: 2px 2px 20px #000000;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.podnaslov{
+    margin-left: 40px;
+    background: #14440e85;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 7px;
+}
+.labela{
+    text-align:left;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.meni{
+    background: #0c310785;
+    text-align:center;
+    box-shadow: 2px 2px 20px #000000;
+}
+.meniDodaj{
+    margin: auto;
+    background: #0c310785;
+    text-align:center;
+    height: max-content;
+    width: max-content;
+}
+.lista{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+li{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+    list-style: bold;
+    display: inline-block;
+    padding: 25px 25px 26px 25px;
+}
+li:hover{
+    background: #10423c;
+}
+.liDodaj{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 17px;
+    list-style: bold;
+    display: inline-block;
+    padding: 15px 15px 16px 15px;
+}
+.pocetnaStranica{
+    margin: 40px 0px 0px 0px;
+    padding-left: 5%;
+    background-color:rgba(246, 231, 206, 0.507);
+    display: flex;
+}
+.zaRecepte{
+    margin: 0px 0px 0px 0px;
+    width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.forma{
+    background: #14440e85;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    order: -1;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+.tipDiv{
+    display: flex;
+    flex-direction: column;
+}
+.radioBtn{
+    transform: scale(1.5);
+}
+.labelaTipovi{
+    color: black;
+    font-size: 17px;
+}
+input{
+    font-size: 17px;
+    background-color: #cbe4e14f;
+}
+.elContainer{
+    margin: 5px;
+    margin-left: auto;
+    padding: 15px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    resize: none;
+    font-size: 17px;
+    background-color: #cbe4e14f;
+}
+select{
+    width: 200px;
+    font-size: 16px;
+    background-color: #cbe4e14f;
+}
+button{
+    border: 1px solid #184d47;
+    background: #184d47;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+button:hover{
+    background-color:#3e857b ;
+}
+.recepti{
+    margin: 25px;
+}
+.images{
+    background-color:rgba(250, 153, 26, 0.246);
+    margin: 20px 0px 0px 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 4px #000000;
+    flex-wrap: wrap;
+}
+.ButtonBoxRecept{
+    margin: 0px 20px 10px 25px;
+    display: flex;
+    flex-direction: row;
+}
+.opisSlika{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-image-size{
+    border-radius: 20px;
+    margin: 0px 0px 0px 10px;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+}
+.containerInstr{
+    margin: 15px;
+}
+.containerSast{
+    margin: 15px;
+}
+.opis{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ostalo{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.zaSastojkeBox{
+    margin: 10px 0px 10px 0px;
+    height: 300px;
+    width: 250px;
+    background-color:rgba(250, 153, 26, 0.507);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.labelaRecept{
+    color: rgb(221, 120, 5);
+    font-weight: bold;
+    font-size: 16px;
+}
+.boxOther{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.prev{
+    padding: 10px;
+    color: rgb(255, 227, 208);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 800px)
+{
+    .pocetnaStranica{
+        flex-wrap: wrap;
+    }
+    body{
+        background-image: none;
+    }
+}
